@@ -1,5 +1,5 @@
-import { truncate } from "../repositories/testRepository.js";
+import testRepository from "../repositories/testRepository.js";
 
 export async function deleteAll() {
-    await truncate()
+  await testRepository.truncate();
 }

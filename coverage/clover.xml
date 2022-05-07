@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1651910105526" clover="3.2.0">
+  <project timestamp="1651910105526" name="All files">
+    <metrics statements="108" coveredstatements="101" conditionals="31" coveredconditionals="22" methods="35" coveredmethods="31" elements="174" coveredelements="154" complexity="0" loc="108" ncloc="108" packages="9" files="14" classes="14"/>
+    <package name="src">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="app.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/app.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="database.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/database.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="24" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="8" coveredmethods="7"/>
+      <file name="recommendationController.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/controllers/recommendationController.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="7" coveredmethods="7"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+      <file name="testController.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/controllers/testController.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middlewares">
+      <metrics statements="4" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="errorHandlerMiddleware.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/middlewares/errorHandlerMiddleware.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories">
+      <metrics statements="13" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="9" coveredmethods="7"/>
+      <file name="recommendationRepository.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/repositories/recommendationRepository.ts">
+        <metrics statements="12" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="8" coveredmethods="7"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+      </file>
+      <file name="testRepository.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/repositories/testRepository.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routers">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="recommendationRouter.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/routers/recommendationRouter.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="testRouter.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/routers/testRouter.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.schemas">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="recommendationsSchemas.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/schemas/recommendationsSchemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="33" coveredstatements="33" conditionals="7" coveredconditionals="7" methods="10" coveredmethods="10"/>
+      <file name="recommendationsService.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/services/recommendationsService.ts">
+        <metrics statements="32" coveredstatements="32" conditionals="7" coveredconditionals="7" methods="9" coveredmethods="9"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="40" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="50" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="61" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="75" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="83" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+      </file>
+      <file name="testService.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/services/testService.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="10" coveredstatements="8" conditionals="20" coveredconditionals="11" methods="6" coveredmethods="5"/>
+      <file name="errorUtils.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/src/utils/errorUtils.ts">
+        <metrics statements="10" coveredstatements="8" conditionals="20" coveredconditionals="11" methods="6" coveredmethods="5"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="12" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="5" type="cond" truecount="3" falsecount="1"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="32" count="1" type="cond" truecount="3" falsecount="1"/>
+      </file>
+    </package>
+    <package name="tests.factories">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="integrationFactory.ts" path="/home/noty/Documentos/driven/sing-me-a-song-main/sing-me-a-song-API/tests/factories/integrationFactory.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -11,8 +11,8 @@ app.use(express.json());
 
 app.use("/recommendations", recommendationRouter);
 console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === 'test') {
-    app.use(testRouter)
+if (process.env.NODE_ENV === "test") {
+  app.use(testRouter);
 }
 app.use(errorHandlerMiddleware);
 

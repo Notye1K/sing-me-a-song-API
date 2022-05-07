@@ -109,11 +109,11 @@ describe("GET /:id", () => {
     expect(result.statusCode).toBe(200);
   });
 
-  //   it("should a invalid id return 404", async () => {
-  //       const result = await supertest(app).get(`/recommendations/-1`);
+  it("should a invalid id return 404", async () => {
+    const result = await supertest(app).get(`/recommendations/-1`);
 
-  //       expect(result.statusCode).toBe(404);
-  //   })
+    expect(result.statusCode).toBe(404);
+  });
 });
 
 describe("GET /recommendations/random", () => {
@@ -137,10 +137,9 @@ describe("GET /recommendations/top/:amount", () => {
     expect(result.statusCode).toBe(200);
   });
 
-  //   it("should a invalid amount return 404", async () => {
+  it("should a invalid amount return 404", async () => {
+    const result = await supertest(app).get(`/recommendations/top/aaa`);
 
-  //       const result = await supertest(app).get(`/recommendations/top/aaa`);
-
-  //       expect(result.statusCode).toBe(404);
-  //   })
+    expect(result.statusCode).toBe(404);
+  });
 });
