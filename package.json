@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "dev:test": "dotenv -e .env.test nodemon src/server.ts",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest -i"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest -i",
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
