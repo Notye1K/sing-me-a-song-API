@@ -34,4 +34,4 @@ dotenv-cli; jest; nodemon; prisma; supertest; typescript
 This script will run your back-end on http://localhost:5000. This is where you can do a requisition.
 
 6. Clone the front-end repository at https://github.com/Notye1K/sing-me-a-song
-7. Follow instructions to run the front-end
+7. Follow instructions to run the front-end at https://github.com/Notye1K/sing-me-a-song#readme
