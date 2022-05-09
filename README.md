@@ -4,6 +4,8 @@ A web app where you can get anonymous recommendations.
 
 ![sing](https://user-images.githubusercontent.com/71580986/167425592-82e58f47-b747-4ac9-9cf5-6a99191bc425.gif)
 
+Try it out now at https://sing-me-a-song-two.vercel.app/
+
 ## About
 
 Below are the implemented features:
