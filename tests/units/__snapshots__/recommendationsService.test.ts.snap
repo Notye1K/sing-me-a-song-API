@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`insert when findByName return something should cause a throw 1`] = `"Recommendations names must be unique"`;
-
-exports[`random when getByScore return empty array should cause a throw 1`] = `""`;
